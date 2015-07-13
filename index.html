@@ -1,0 +1,353 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--!DOCTYPE html-->
+<html xmlns="http://www.w3.org/1999/xhtml" 
+   xml:lang="en-gb" lang="en-gb" >
+<head>
+  <meta http-equiv="x-ua-compatible" content="IE=8" />
+	<title>We're getting married!</title>
+
+	<!-- Stylesheets-->
+  <link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+  <link type="text/css" rel="stylesheet" media="all" href="css/default.css" />
+
+</head>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-48895318-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<body>
+<div id="globa-wrap">
+  <div id="header">
+    <div class="wrap">
+      <div id="rsvp">
+                 <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/hdr-rsvp.png" alt="rsvp" /></h2>
+        <div class="inside">
+
+		   <form id="rsvp-form" method="post" action="send_form_email.php">
+             <div class="another-wrap">
+				<table>
+					<tr>
+						<td><u>Attending</u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+						<td><u>Not attending</td>
+						<td colspan=2>&nbsp;&nbsp;</td>
+						<td><label for="steak">&nbsp;&nbsp;Steak&nbsp;&nbsp;</label></td>
+						<td><label for="seafood">&nbsp;&nbsp;Seafood&nbsp;&nbsp;</label></td>
+						<td><label for="vegetarian">&nbsp;&nbsp;Vegetarian&nbsp;&nbsp;</label></td>
+						<td><label for="email">&nbsp;&nbsp;Email&nbsp;&nbsp;</label></td>
+					</tr>
+					<tr>
+						<td><center><Input type="radio" class="radio" name="guest0" value="yes"></td>
+						<td><center><Input type="radio" class="radio" name="guest0" value="no"></td>
+						<td><label for="name">&nbsp;&nbsp;Your Name&nbsp;&nbsp;</label></td>
+						<td><input type="text" class="text" name="name"></td>
+						<td><center><Input type="radio" class="radio" name="guestpref0" value="steak"></td>
+						<td><center><Input type="radio" class="radio" name="guestpref0" value="seafood"></td>
+						<td><center><Input type="radio" class="radio" name="guestpref0" value="vegetarian"></td>
+						<td><input type="text" class="text" name="email" size="30"></td>
+					</tr>
+					<tr>
+						<td><center><Input type="radio" class="radio" name="guest1" value="yes"></td>
+						<td><center><Input type="radio" class="radio" name="guest1" value="no"></td>
+						<td><label for="name">&nbsp;&nbsp;Guest 1&nbsp;&nbsp;</label></td>
+						<td><input type="text" class="text" name="guest1_name" placeholder='Invited guests only.'></td>
+						<td><center><Input type="radio" class="radio" name="guestpref1" value="steak"></td>
+						<td><center><Input type="radio" class="radio" name="guestpref1" value="seafood"></td>
+						<td><center><Input type="radio" class="radio" name="guestpref1" value="vegetarian"></td>
+						<td><label for="Comments">&nbsp;&nbsp;Note&nbsp;&nbsp;</label></td>
+					</tr>	
+
+					<tr>
+						<td><center><Input type="radio" class="radio" name="guest2" value="yes"></td>
+						<td><center><Input type="radio" class="radio" name="guest2" value="no"></td>					
+						<td><label for="name">&nbsp;&nbsp;Guest 2&nbsp;&nbsp;</label></td>					
+						<td><input type="text" class="text" name="guest2_name" placeholder='Invited guests only.'></td>
+						<td><center><Input type="radio" class="radio" name="guestpref2" value="steak"></td>
+						<td><center><Input type="radio" class="radio" name="guestpref2" value="seafood"></td>
+						<td><center><Input type="radio" class="radio" name="guestpref2" value="vegetarian"></td>
+						<td rowspan=6><textarea class="text" name="comments" size="30" style="height:75px;" placeholder='Please include any dietary restrictions or anything else we should know.'></textarea></td>						
+					</tr>	
+
+					<tr>
+						<td><center><Input type="radio" class="radio" name="guest3" value="yes"></td>
+						<td><center><Input type="radio" class="radio" name="guest3" value="no"></td>					
+						<td><label for="name">&nbsp;&nbsp;Guest 3&nbsp;&nbsp;</label></td>					
+						<td><input type="text" class="text" name="guest3_name" placeholder='Invited guests only.'></td>
+						<td><center><Input type="radio" class="radio" name="guestpref3" value="steak"></td>
+						<td><center><Input type="radio" class="radio" name="guestpref3" value="seafood"></td>
+						<td><center><Input type="radio" class="radio" name="guestpref3" value="vegetarian"></td>
+					</tr>
+					<tr>
+						<td><center><Input type="radio" class="radio" name="guest4" value="yes"></td>
+						<td><center><Input type="radio" class="radio" name="guest4" value="no"></td>					
+						<td><label for="name">&nbsp;&nbsp;Guest 4&nbsp;&nbsp;</label></td>					
+						<td><input type="text" class="text" name="guest4_name" placeholder='Invited guests only.'></td>
+						<td><center><Input type="radio" class="radio" name="guestpref4" value="steak"></td>
+						<td><center><Input type="radio" class="radio" name="guestpref4" value="seafood"></td>
+						<td><center><Input type="radio" class="radio" name="guestpref4" value="vegetarian"></td>
+					</tr>
+					<tr>
+						<td><center><Input type="radio" class="radio" name="guest5" value="yes"></td>
+						<td><center><Input type="radio" class="radio" name="guest5" value="no"></td>					
+						<td><label for="name">&nbsp;&nbsp;Guest 5&nbsp;&nbsp;</label></td>					
+						<td><input type="text" class="text" name="guest5_name" placeholder='Invited guests only.'></td>
+						<td><center><Input type="radio" class="radio" name="guestpref5" value="steak"></td>
+						<td><center><Input type="radio" class="radio" name="guestpref5" value="seafood"></td>
+						<td><center><Input type="radio" class="radio" name="guestpref5" value="vegetarian"></td>
+					</tr>
+
+
+				</table>
+		    <input type="submit" class="submit" name="submit" value="Submit"> 
+
+			 </div>
+			 <p><span style="color:#000000;">For any question please Emal: </span> <a href="mailto:sherryandkevan@gmail.com">sherryandkevan@gmail.com</a>
+		   </form>
+
+          <a href="#rsvp" class="rsvp-link">Close</a>
+        </div>
+      </div><!--END OF id="rsvp"-->
+      <div id="menu">
+        <ul class="nav">
+          <li id="nav-logo" class="first"><a href="#section-1">Logo</a></li>
+          <li id="nav-our-story"><a href="#section-2">Our Story</a></li>
+          <li id="nav-photos"><a href="#section-3">Photos</a></li>
+          <li id="nav-groomsment"><a href="#section-4">Groomsmen</a></li>
+          <li id="nav-bridesmaid"><a href="#section-5">Bridesmaid</a></li>
+          <li id="nav-info"><a href="#section-6">When/Where/How</a></li>
+          <li id="nav-gifts"><a href="#section-7">Gifts</a></li>
+          <li id="nav-rsvp" class="last"><a href="#rsvp">RSVP</a></li>
+        </ul>
+      </div>
+    </div>
+  </div><!--END OF id="header"-->
+
+  <div id="section-1" class="section">
+  </div>
+  
+  <div id="section-2" class="section">
+    <div class="wrap" style="align: left;">
+      <img src="img/our_story.png" width=1000><br>
+    </div>
+  </div>
+  
+  <!--PHOTOS-->
+  <div id="section-3" class="section">
+    <div class="wrap">
+      <h2><img src="img/hdr-photos.png" alt="Photos" /></h2>
+      <div class="slideshow">
+        <ul>
+          <li><img src="engagement/photos/kevan-sherry-21.jpg" alt="slideshow 1"/></li>
+          <li><img src="engagement/photos/11.jpg" alt="slideshow 2"/></li>
+          <li><img src="engagement/photos/13.jpg" alt="slideshow 3"/></li>
+          <li><img src="engagement/photos/14.jpg" alt="slideshow 4"/></li>
+          <li><img src="engagement/photos/16.jpg" alt="slideshow 5"/></li>
+          <li><img src="engagement/photos/17.jpg" alt="slideshow 6"/></li>
+          <li><img src="engagement/photos/18.jpg" alt="slideshow 7"/></li>
+          <li><img src="engagement/photos/22.jpg" alt="slideshow 8"/></li>
+          <li><img src="engagement/photos/24.jpg" alt="slideshow 9"/></li>
+          <li><img src="engagement/photos/25.jpg" alt="slideshow 10"/></li>
+          <li><img src="engagement/photos/26.jpg" alt="slideshow 11"/></li>
+          <li><img src="engagement/photos/27.jpg" alt="slideshow 12"/></li>
+          <li><img src="engagement/photos/3.jpg" alt="slideshow 13"/></li>
+        </ul>
+      </div><!--END OF class="slideshow"-->
+      <ul class="slideshow-control">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+        <li>10</li>
+        <li>11</li>
+        <li>12</li>  
+        <li>13</li>    
+      </ul>
+    </div>
+    <p align="center" style="font-size:12px"><span style="color:#000000;">Photos were taken by : </span> <a href="http://heatherelizabethphotography.com/blog/" target="_blank">Heather Elizabeth Photography</a></p>
+  </div><!--PHOTOS-->
+  
+  <!--GROOMSMEN-->
+  <div id="section-4" class="section">
+    <div class="wrap">
+      <h2><img src="img/hdr-groomsmen.png" alt="Groomsmen"/></h2>
+      
+      <div class="slideshow">
+        <ul>
+          <li class="item-1">
+            <img class="photo" src="img/groomsmen/01-craig.png" alt="Craig Cook" />
+            <div class="person">
+              <div class="name">Craig Cook</div>
+              <div class="title">Best Man</div>
+              <div class="bio">Craig has been my best friend since we were in diapers. We grew up accross the street together in Vancouver and helped each other through countless struggles. We have always been there for each other and I'm so grateful that he has been a part of my life for over 20 years.</div>
+            </div>
+          </li>
+          <li class="item-2">
+            <img class="photo" src="img/groomsmen/02-colin.png" alt="Colin Moore" />
+            <div class="person">
+              <div class="name">Colin Moore</div>
+              <div class="title">Best Man</div>
+              <div class="bio">Not long after meeting Craig, he had another friend named Colin who lived down the street. And so, the wolf pack was born. Together, the three of us have slayed dragons, argued over epic board-game adventures, pulled all-nighters playing video games, came up with all sorts of money-making schemes, and been a part of so many shenanigans. </div>
+            </div>
+          </li>
+          <li class="item-3">
+            <img class="photo" src="img/groomsmen/03-mike.png" alt="Michael Negrete" />
+            <div class="person">
+              <div class="name">Michael Negrete</div>
+              <div class="title">Step-Brother</div>
+              <div class="bio">Mike came in to my life later and has been like an older brother to me since we met. He has always been available to talk tech, hike mission peak, or go to some Sharks games. Mike lives in Mountain View, CA with his wife Rosaline, son Luke, and daughter Melody.</div>
+            </div>
+          </li>
+        </ul>
+      </div><!--END OF class="slideshow"-->
+      <ul class="slideshow-control">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </ul>
+      
+      
+      <!--img src="img/section-4.jpg" alt="section 4" /-->
+    </div>
+  </div>
+  
+  <!--BRIDESMAIDS-->
+  <div id="section-5" class="section">
+    <div class="wrap">
+      <h2><img src="img/hdr-bridesmaids.png" alt="Bridesmaids" /></h2>
+      
+      <div class="slideshow">
+        <ul>
+          <li class="item-1">
+            <img class="photo" src="img/bridesmaids/sisi.png" alt="Sisi Kim" />
+            <div class="person">
+              <div class="name">Sisi Kim</div>
+              <div class="title">Maid of Honor, the Girl Who Knows Everything About Sherry</div>
+              <div class="bio">Sisi got lost on the first day of our graduate school orientation at USC. She bumped into me and decided to ask me where the classroom was. Since then, we have become best friends. We literally know everything about each other and she is the first person I turn to whenever I need to talk. I just can't imagine my life without this girl. She got married to the love of her life in 2014 and I was lucky to stand next to her as the Maid of Honor. Now, I am so grateful she is here for me as I am about to start a new chapter in my life.
+</div>
+            </div>
+          </li>
+          <li class="item-2">
+            <img class="photo" src="img/bridesmaids/jingjing.png" alt="Jingjing Li" />
+            <div class="person">
+              <div class="name">JingJing Li</div>
+              <div class="title">BFF and Almost-twin</div>
+              <div class="bio">Sometimes, I am just in awe of the connection Jingjing and I have. During our time in USC, we selected the same classes countless times and always got assigned the same projects. I love the sweetness and elegance in her and I always have the best time when she is around. It's almost unbelievable to find out how much we have in common: Love for the same type of food, fondness for minimalism, hyper detail-oriented personality and dreams for our future. Oh, did I mention we have the same flats, boots, scarves, coats and purses?
+</div>
+            </div>
+          </li>
+          <li class="item-3">
+            <img class="photo" src="img/bridesmaids/bei.png" alt="Bei Wu" />
+            <div class="person">
+              <div class="name">Bei Wu</div>
+              <div class="title">Middle School Sweetheart</div>
+              <div class="bio">Bei is my dear old friend from middle school and we have known each other for 15 years! College separated us, BUT, life never fails to surprise us, in a good way! Bei married her childhood sweetheart and moved to Seattle while I was working in LA. Two years later, she moved to Silicon Valley with her husband while I relocated to SF. Reunited and it felt so good! I'm so thankful to have someone who shares all the precious memories of our childhood, explores fantastic restaurants, and laughs with me about the little things in life.
+</div>
+            </div>
+          </li>
+        </ul>
+      </div><!--END OF class="slideshow"-->
+      <ul class="slideshow-control">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </ul>      
+    </div>
+  </div>
+  
+  <!--INFO-->
+  <div id="section-6" class="section">
+    <div class="wrap">
+      <h2><img src="img/hdr-info.png" alt="Info" /></h2>
+
+      <div id="when" class="box1-top">
+        <div class="box1-bottom">
+          <div class="box1-middle">
+            <h3>When</h3>
+            <p>Saturday, May 9, 2015<br/>
+              Church ceremony starts at <u><b>5:30 pm</b></u>. Reception to follow.</p>
+          </div>
+        </div>
+      </div><!--END OF box-->
+
+      <div id="where" class="box1-top">
+        <div class="box1-bottom">
+          <div class="box1-middle-where">
+            <center><h3>Where</h3></center>
+            <p>Our celebration will take place on the Santa Clara University campus. The address is <a href="https://www.google.com/maps/place/Santa+Clara+University,+500+El+Camino+Real,+Santa+Clara,+CA+95053/@37.349258,-121.941545,15z" target="_blank">500 El Camino Real, Santa Clara, CA 95053</a>. 
+
+              The church is located on the Santa Clara University campus.<br>
+            <p>
+<b>Ceremony:</b> The ceremony begins at 5:30 PM at the historic <a href="http://www.scu.edu/missionchurch/">Mission Santa Clara Church</a> on campus. You will see the church straight ahead when you drive up to the campus.
+<br>
+<img src="img/church.png">
+<br>
+<b>Reception:</b> The reception will be held next door immediately following the ceremony at the <a href="http://adobelodge.cafebonappetit.com/">Adobe Lodge</a>. Follow the signs outside of the church.
+<br>
+<b>Parking:</b> There is plenty of free parking on the university campus. Follow the signs when you get there.
+</p>
+  
+          </div>
+        </div>
+      </div><!--END OF box-->
+
+      <div id="how" class="box1-top">
+        <div class="box1-bottom">
+          <div class="box1-middle">
+            <h3>How</h3>
+            <p><b>Travel: </b>For our out of town guests, fly into the <u>San Jose International Airport</u><br>(airport code SJC).<br>
+            or the <u>San Francisco International Airport</u><br>(airport code SFO)</p>
+            <p><b>Hotel:</b> We have booked a block of hotel rooms at the Marriott in San Jose and got a group rate of $119 per night. The reservations must be made by April 11th, 2015. You can book our group rate by clicking <a href="http://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Kevan%20Mah%20%26%20Sherry%20Wang%20Wedding%20room%20block%5Esjcsj%60kmhkmha%60119.00%60USD%60false%605/9/15%605/10/15%604/11/15&app=resvlink&stop_mobi=yes">this link for the San Jose Marriott</a><br>
+            </p>
+            <p><b>Taxi: </b>We managed to snag a promotion with Uber to give our guests $30 towards their first Uber ride. Check out the info here:<br>
+              <img src="img/uber_code.jpg" width="90%" height="90%">
+            <p><b>Weather: </b>Expect the weather in Santa Clara that day to be warm. During the middle of the day, temperate will likely be anywhere from 65 - 90 degrees farenheit (18 - 32 celsius)  </p>
+            <p>If you have any questions about any of the above, feel free to email us at <a href="mailto:SherryandKevan@gmail.com">SherryandKevan@gmail.com</a>.</p>
+          </div>
+        </div>
+      </div><!--END OF box-->
+
+    </div>
+  </div>
+  
+  <!--GIFTS-->
+  <div id="section-7" class="section">
+    <div class="wrap">
+      <h2><img src="img/hdr-gifts.png" alt="Gifts" /></h2>
+
+      <div class="box2-top">
+        <div class="box2-bottom">
+          <div class="box2-middle">
+            <p>Dear friends and family,</p>
+            <p>We are excited that you are coming to share in our special day with us! More than anything, we are happy to have your company on our wedding day.</p>
+            <p>Optionally, as we are saving up for our European honeymoon soon after the wedding, we have registered <a href="https://www.zola.com/registry/sherryandkevan">here at Zola</a> if anyone would like to contribute to our honeymoon.</p>
+            <a href="https://www.zola.com/registry/sherryandkevan"><img src="img/zola.jpg" width="149" height="128"></a><br><br><br>
+            <p>All the best,</p>
+            <p>Sherry &amp; Kevan</p>
+          </div>
+        </div>
+      </div><!--END OF box-->
+    </div>
+  </div>
+
+</div><!--END OF id="global-wrap"-->
+<!-- Scripts-->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+<!--script type="text/javascript" src="js/jquery.lazyload.mini.js"></script-->
+<script type="text/javascript" src="js/default.js"></script>
+
+</body>
+</html>
